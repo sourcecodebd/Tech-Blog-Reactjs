@@ -1,2 +1,9 @@
 # Tech-Blog-Reactjs
-I have made a simple tech related blog site using React JS and self made API. Live site link has been given. Check this exciting super duper blog!
+## Site-Link
+https://tech-blog-reactjs.netlify.app/
+
+## Author 
+[Nafi Mahmud][author]
+
+[author]: https://sourcecodebd.github.io/nafi.com/
+I have made a simple tech-related blog site using React JS and self-made API. A live site link has been given. Check this exciting super-duper blog!

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  margin-top: -20px;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.card{
+  color: cyan;
+  background-color: #282c34;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img-fluid{
+  width: 100%
+}
+
+.btn-custom{
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.3s
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+}
+.btn-blue{
+  background-color: blue;
+  color: white;
+}
+.btn-green{
+  background-color: green;
+  color: white;
+}
+.btn-cyan{
+  background-color: cyan;
+  color: black;
+  border: 1px solid cyan;
+}
+.btn-red:hover{
+  background-color: white;
+  color: red;
+}
+.btn-blue:hover{
+  background-color: white;
+  color: blue;
+}
+.btn-green:hover{
+  background-color: white;
+  color: green;
+}
+.btn-cyan:hover{
+  background-color: black;
+  color: cyan;
+  border: 1px solid cyan;
+}
+
+.center{
+  text-align: center;
+}
+.justify{
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
